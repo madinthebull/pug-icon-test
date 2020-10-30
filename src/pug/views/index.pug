@@ -1,0 +1,5 @@
+extends ../templates/_root.pug
+block body
+  div.icon-test
+    each q, idx in ['Gmail', 'GChat', 'Google Docs', 'Google Drive', 'Google Calendar']
+      include ../templates/_icon-test.pug

@@ -1,0 +1,6 @@
+div.icon-test__container
+  p.icon-test__text Select the #{q} icon:
+  div.icon-test__input
+    each logo in ['gcal', 'gchat', 'gdocs', 'gdrive', 'gmail']
+      input(class=logo type="radio" id=logo name="logo" value=logo)
+      label(for=logo)
